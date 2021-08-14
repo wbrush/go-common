@@ -341,7 +341,7 @@ func (d *BasePgDAO) GetShardName(shardId int64) (string, error) {
 
 	for _, shard := range shardsList {
 		if shard.ShardId == shardId {
-			name = shard.PropertyName
+			name = shard.ShardName
 			break
 		}
 	}

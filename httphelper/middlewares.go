@@ -2,8 +2,6 @@ package httphelper
 
 import (
 	"context"
-	"encoding/json"
-	"github.com/sirupsen/logrus"
 	"net/http"
 )
 
@@ -11,6 +9,6 @@ func MWUserInfoHeader(w http.ResponseWriter, r *http.Request, next http.HandlerF
 
 	//  do stuff here if needed
 
-	next.ServeHTTP(w, r.WithContext(ctx))
+	next.ServeHTTP(w, r.WithContext(context.Background()))
 	return
 }

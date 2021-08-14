@@ -2,7 +2,6 @@ package messaging
 
 import (
 	"encoding/json"
-	"github.com/wbrush/go-common/datamodels"
 )
 
 type CommsRcvd struct {
@@ -11,7 +10,7 @@ type CommsRcvd struct {
 	Destination string `json:"destination"`
 	MessageSid  string `json:"message_sid"`
 
-	Status datamodels.MessageStatus `json:"status"`
+	Status string `json:"status"`
 }
 
 func (m CommsRcvd) GetBody() []byte {
