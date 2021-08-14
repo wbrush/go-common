@@ -1,5 +1,3 @@
-bitbucket.org/optiisolutions/go-common/helpers v0.0.0-20190605135023-50fdc07aeff8 h1:oOBTm5Pu8PUrYk8ggY6YVqUio7GV38alXzZmuxLFlHo=
-bitbucket.org/optiisolutions/go-common/helpers v0.0.0-20190605135023-50fdc07aeff8/go.mod h1:WbVxmghl9Ty2Di7+EEwnAiSKv+4jDUOd8AHRg+wRT2Q=
 github.com/TV4/logrus-stackdriver-formatter v0.1.0 h1:nFea8RiX7ecTnWPM+9FIqwZYJdcGo58CHMGIVdYzMXg=
 github.com/TV4/logrus-stackdriver-formatter v0.1.0/go.mod h1:wwS7hOiBvP6SBD0UXCa767+VhHkaXrfX0MzUojYcN0Q=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=

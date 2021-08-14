@@ -1,13 +1,3 @@
-bitbucket.org/optiisolutions/go-common/TrustedTlsValidator v0.0.0-20210408234850-8fd01822d2c3 h1:aYGbBo6AwFnO4LF6+Tb/kr8QjkrZESIbEbqsl7mDqMw=
-bitbucket.org/optiisolutions/go-common/TrustedTlsValidator v0.0.0-20210408234850-8fd01822d2c3/go.mod h1:nQo9QsLYzHBW5xwXe4ZLV3FHlzUUKAP7FW/9MpfkyxI=
-bitbucket.org/optiisolutions/go-common/config v0.0.0-20210408234850-8fd01822d2c3 h1:TjP6MiqoDls09tr+GrGr7ScHPltBQz7QwsnfW5rIuvA=
-bitbucket.org/optiisolutions/go-common/config v0.0.0-20210408234850-8fd01822d2c3/go.mod h1:5sPZPcpfKqbv1ppR2XIvQat6ioYntzpPuhR5orQud0g=
-bitbucket.org/optiisolutions/go-common/datamodels v0.0.0-20200429200342-6757f1468607 h1:e0oD4FZGnWHghIDh9J1n4LT0f5Ct+4vSGc5reI1RydA=
-bitbucket.org/optiisolutions/go-common/datamodels v0.0.0-20200429200342-6757f1468607/go.mod h1:V0Kh8lkfHNXpTYip4AtMqxQ8L0u7pKYmg/E41IYp3BY=
-bitbucket.org/optiisolutions/go-common/helpers v0.0.0-20190515132720-4c9e28969227/go.mod h1:WbVxmghl9Ty2Di7+EEwnAiSKv+4jDUOd8AHRg+wRT2Q=
-bitbucket.org/optiisolutions/go-common/helpers v0.0.0-20190605135023-50fdc07aeff8/go.mod h1:WbVxmghl9Ty2Di7+EEwnAiSKv+4jDUOd8AHRg+wRT2Q=
-bitbucket.org/optiisolutions/go-common/helpers v0.0.0-20210323135137-4b71072393ae h1:hIB2E/zj03PSxv9rRgKXVQc37EgJe+0MoGevhxkylY8=
-bitbucket.org/optiisolutions/go-common/helpers v0.0.0-20210323135137-4b71072393ae/go.mod h1:hglKbJ4oLynz25ls8pbeEwXspoftnP1qFXKKNrm5KDw=
 github.com/TV4/logrus-stackdriver-formatter v0.1.0 h1:nFea8RiX7ecTnWPM+9FIqwZYJdcGo58CHMGIVdYzMXg=
 github.com/TV4/logrus-stackdriver-formatter v0.1.0/go.mod h1:wwS7hOiBvP6SBD0UXCa767+VhHkaXrfX0MzUojYcN0Q=
 github.com/cespare/xxhash/v2 v2.1.1 h1:6MnRN8NT7+YBpUIWxHtefFZOKTAPgGjpQSxqLNn0+qY=
