@@ -47,7 +47,6 @@ type (
 		AddNewShard(shard *datamodels.Shard) error
 		GetShardList() ([]int64, error)
 		GetShardName(shardId int64) (string, error)
-		UpdateShardPropertyData(property *datamodels.Property) error
 	}
 
 	BasePgDAO struct {
@@ -348,18 +347,4 @@ func (d *BasePgDAO) GetShardName(shardId int64) (string, error) {
 	}
 
 	return name, err
-}
-
-func (d *BasePgDAO) UpdateShardPropertyData(property *datamodels.Property) error {
-	var (
-		shardModel datamodels.Shard
-		err        error
-	)
-
-	_, err = d.BaseDB.Model(&shardModel).
-		Set("property_name=?", property.DisplayName).
-		Where("shard_id=?", property.PropertyId).
-		Update()
-
-	return err
 }
